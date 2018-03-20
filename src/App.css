@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: 'Open Sans';
+    background-color: #333333
+}
+.App {
+    text-align: center;
+    font-size: 35px;
+    margin-top:10%;
+}
+
+.App-title {
+    font-size: 50px;
+    color: #f0f0f0;
+}
+
+.Clock-days, .Clock-hours, .Clock-minutes, .Clock-seconds {
+    display: center;
+    margin: 10px;
+    color: #f0f0f0;
+}
+
+input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #4a4a4a;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1px;
+    outline: 0;
+    padding: 5px 20px;
+    text-align: center;
+    transition: all 0.3s;
+    width: 300px; 
+    text-transform: uppercase;
+    padding-top: 30px;
+    
+}
+
+input:focus {
+    width: 500px;
+    color: #f0f0f0;
+}
+
+.timers{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 50px;
+    align-items: left;
+}
+
+.time-text {
+    color: #9b9b9b;
+}
+
+button {
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
